@@ -15,7 +15,7 @@ function App() {
       <div id="main">
         {style?<p className="redColor">Newton School</p>:<p className="blueColor">Newton School</p>}
         
-        <button onClick={toggle}>Change Style</button>
+        <button onClick={toggle} id="button">Change Style</button>
       </div>
       
     </div>
